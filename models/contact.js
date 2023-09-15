@@ -31,15 +31,15 @@ const addSchema = Joi.object({
 });
 
 const updateFavoriteSchema = Joi.object({
-    favorite: Joi.boolean(). required(),
-})
+  favorite: Joi.boolean().required(),
+});
 
 const schemas = {
-    addSchema,
-    updateFavoriteSchema,
-}
+  addSchema,
+  updateFavoriteSchema,
+};
 
 module.exports = {
-    Contact,
-    schemas,
+  Contact,
+  schemas,
 };
